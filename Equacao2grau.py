@@ -16,6 +16,13 @@ Instruções:
 """
 from math import sqrt
 
+# Abertura do programa
+def welcome():
+    print('''
+Bem vindo a Calculadora de Raízes do 2º Grau 1.0
+''')
+
+
 def calcular_raizes(a, b, c):
     raizes = []
     
@@ -44,6 +51,8 @@ def calcular_raizes(a, b, c):
     return raizes
         
 continuar = 'S'
+
+welcome()
 
 while (continuar.upper() == 'S'):
     a = float(input('Informe o valor do coeficiente a: '))
