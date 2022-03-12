@@ -45,7 +45,7 @@ def calcular_raizes(a, b, c):
         
 continuar = 'S'
 
-while (continuar == 'S'):
+while (continuar.upper() == 'S'):
     a = float(input('Informe o valor do coeficiente a: '))
     b = float(input('Informe o valor do coeficiente b: '))
     c = float(input('Informe o valor do coeficiente c: '))
