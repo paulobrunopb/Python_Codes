@@ -5,11 +5,13 @@ https://www.digitalocean.com/community/tutorials/como-fazer-um-programa-de-calcu
 
 CALCULADORA BÁSICA
 """
-# Criando a função calculate()
+# Abertura do programa
 def welcome():
     print('''
 Bem vindo a Calculadora Básica 1.0
 ''')
+
+# Criando a função calculate()
 def calculate():
     operation = input('''
 Escolha o tipo de Operação Matemática que deseja realizar:
