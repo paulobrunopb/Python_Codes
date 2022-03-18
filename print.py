@@ -23,3 +23,5 @@ print(c,d,e, sep=" ", end="!")
 print(c) #python é fantastico!python
 print(c,d,e, sep="_", end="!\n") #python_é_fantastico!
 print(c) #python
+
+print('A linguagem {} é nota {}'.format(c,a))
