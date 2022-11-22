@@ -53,7 +53,7 @@ Escolha o tipo de Operação Matemática que deseja realizar:
 # Criando a função again() que permite utilizar a calculadora novamente
 def again():
     calc_again = input('''
-Deseja calcular novamente?
+Deseja calcular novamente??
 Digite S para Sim ou N para Não
 ''')
 
