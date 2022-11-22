@@ -70,4 +70,4 @@ while (continuar.upper() == 'S'):
         
     continuar = input('Deseja continuar [S/N]? ')
     
-print('O programa será encerrado')
+print('O programa será encerrado!')
